@@ -17,7 +17,7 @@ spec:
         app: nodejs
     spec:
       imagePullSecrets:
-        -name: aws-ecr-secret
+        - name: aws-ecr-secret
       containers:
         - name: nodejs
           image: 888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app:2
