@@ -15,7 +15,6 @@ spec:
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
-    preserveResourcesOnDeletion: false
     automated:
       prune: true
       selfHeal: true
