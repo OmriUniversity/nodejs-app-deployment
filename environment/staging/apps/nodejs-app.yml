@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/OmriUniversity/nodejs-app-deployment.git
     targetRevision: HEAD
-    path: environments/staging/nodejs-app
+    path: environment\staging\nodejs-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
