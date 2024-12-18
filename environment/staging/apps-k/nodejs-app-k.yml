@@ -6,7 +6,7 @@ metadata:
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: 888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
-    rgocd-image-updater.argoproj.io/app-version.pull-secret: secret:argocd/aws-ecr-secret
+    argocd-image-updater.argoproj.io/app-version.pull-secret: secret:argocd/aws-ecr-creds#creds
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
