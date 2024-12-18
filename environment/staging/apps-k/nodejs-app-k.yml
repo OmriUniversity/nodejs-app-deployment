@@ -7,6 +7,7 @@ metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: app=888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
     argocd-image-updater.argoproj.io/app.update-strategy: latest
+    argocd-image-updater.argoproj.io/app.kustomize.image-name: 888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
