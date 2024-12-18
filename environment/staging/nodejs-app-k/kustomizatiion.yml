@@ -1,0 +1,10 @@
+---
+namespace: staging
+replicas:
+  - name: nodej-deployment
+    count: 2
+images:
+  - name: 888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
+    newTag: latest
+resources:
+  - ../../../nodejs-app-base
