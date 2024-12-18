@@ -6,3 +6,4 @@ metadata:
 resources:
   - deployment.yml
   - namespace.yml
+  - ecr-secret.yml
