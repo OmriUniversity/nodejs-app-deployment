@@ -5,7 +5,8 @@ metadata:
   name: nodejs-app-k
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: 888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
+    argocd-image-updater.argoproj.io/image-list: app=888332437124.dkr.ecr.us-east-1.amazonaws.com/interview/nodejs-simple-app
+    argocd-image-updater.argoproj.io/app.update-strategy: latest
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
